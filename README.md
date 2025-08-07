@@ -5,7 +5,7 @@ I am a student at MIT majoring in the intersection of Mathematics, Computer Scie
 ## Research
 
 ### In-Context Learning for Esoteric Programming Languages  
-**Description:** Developed a zero-shot, in-context evaluation framework that extends LLM reasoning to esoteric languages without any additional fine-tuning. Built a modular pipeline to compare full versus minimal context prompting and introduced a lightweight in-context reinforcement method that delivered measurable improvements on custom “EsoEval” benchmarks over standard HumanEval.
+**Description:** Developed a zero-shot, in-context evaluation framework that extends LLM reasoning to esoteric languages without any additional fine-tuning. Built a modular pipeline to compare full versus minimal context prompting and introduced a lightweight in-context reinforcement method that delivered measurable improvements on custom “EsoEval” benchmarks over standard HumanEval.  
 **Links:** [GitHub](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages)  
 
 
