@@ -1,6 +1,6 @@
 # Hi!
 
-I am a student at MIT majoring in the intersection of Mathematics, Computer Science, and Artificial Intelligence, with a particular interest in Machine Learning.
+I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Science, and Artificial Intelligence, with a particular interest in Machine Learning.
 
 ## Research
 
@@ -12,6 +12,9 @@ I am a student at MIT majoring in the intersection of Mathematics, Computer Scie
 **Description:** Developed a zero-shot, in-context evaluation framework that extends LLM reasoning to esoteric languages without any additional fine-tuning. Built a modular pipeline to compare full versus minimal context prompting and introduced a lightweight in-context reinforcement method that delivered measurable improvements on custom “EsoEval” benchmarks over standard HumanEval.  
 **Links:** [GitHub](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages), [Supplementary Material](https://github.com/mrzwang/LLM-potential_reward_hacking_examples) 
 
+### FormattingSFT: Code Format Training Dataset Generator for LLM Fine-Tuning
+**Description:** Developed a specialized pipeline for creating supervised fine-tuning (SFT) datasets from Python code snippets to train language models on consistent output formatting. Implements AST-based docstring detection and tokenization-aware comment handling to preserve code structure while removing non-essential elements. Features intelligent regex-based code sanitization to filter potentially harmful patterns and memory-efficient batch processing with PyArrow for handling large datasets. The system generates structured prompt-completion pairs with deterministic output formatting, serving as a first-stage training step before reinforcement fine-tuning (RFT) to establish formatting patterns for code blocks, predictions, and structured responses.
+**Links:** [GitHub](https://github.com/mrzwang/FormattingSFT)
 
 ## Projects
 ### PyTorch Transformer GPT From Scratch
