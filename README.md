@@ -2,11 +2,15 @@
 
 I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Science, and Artificial Intelligence, with a particular interest in Machine Learning.
 
-## Current Projects
+## Current Research/Projects
 
-### Computer Use Agentic AI (CUA) 
+### Computer Use Agentic AI
 **Description:** Developing an autonomous browser interaction system using both AutoGen framework and Azure's Computer Use Preview API. This project enables AI models to navigate web interfaces through a sophisticated action handling system supporting clicks, typing, scrolling, and keyboard shortcuts. The implementation features custom Hugging Face model integration with function-calling capabilities, safety checks for user approval, screenshot-based visual feedback loops, and automatic tab management. The system maintains context awareness through URL tracking and provides detailed reasoning summaries, creating a human-in-the-loop experience where AI can perform web tasks while allowing human supervision. The architecture supports both streaming and synchronous completions with configurable model parameters, providing a foundation for research into autonomous web navigation capabilities.  
 **Note:** This is proprietary work in progress; source code is not publicly available at this time.
+
+### RL Adversarial LLM: Reinforcement Learning Framework for LLM Code Generation 
+**Description:** Developed an advanced reinforcement learning framework for enhancing language model capabilities, implementing both PPO (Proximal Policy Optimization) and GRPO (General Reinforcement Policy Optimization) algorithms. The system focuses on RL fine-tuning sub-4B parameter models to improve code generation quality, consistency, and complexity. A core feature is the adversarial training framework, where two language models compete against each other in real-time, continuously improving through reinforcement learning feedback loops. This creates a self-improving ecosystem where models learn to generate increasingly sophisticated code by attempting to outperform their opponents. 
+**Links:** [GitHub](https://github.com/mrzwang/rl-adversarial-llm)
 
 ## Research
 
