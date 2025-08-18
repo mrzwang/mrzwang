@@ -9,7 +9,7 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 **Note:** This is proprietary work in progress; source code is not publicly available at this time.
 
 ### RL Adversarial LLM: Reinforcement Learning Framework for LLM Code Generation 
-**Description:** Developed an advanced reinforcement learning framework for enhancing language model capabilities, implementing both PPO (Proximal Policy Optimization) and GRPO (General Reinforcement Policy Optimization) algorithms. The system focuses on RL fine-tuning sub-4B parameter models to improve code generation quality, consistency, and complexity. A core feature is the adversarial training framework, where two language models compete against each other in real-time, continuously improving through reinforcement learning feedback loops. This creates a self-improving ecosystem where models learn to generate increasingly sophisticated code by attempting to outperform their opponents. 
+**Description:** Developed an advanced reinforcement learning framework for enhancing language model capabilities, implementing both PPO (Proximal Policy Optimization) and GRPO (General Reinforcement Policy Optimization) algorithms. The system focuses on RL fine-tuning sub-4B parameter models to improve code generation quality, consistency, and complexity. A core feature is the adversarial training framework, where two language models compete against each other in real-time, continuously improving through reinforcement learning feedback loops. This creates a self-improving ecosystem where models learn to generate increasingly sophisticated code by attempting to outperform their opponents.  
 **Links:** [GitHub](https://github.com/mrzwang/rl-adversarial-llm)
 
 ## Research
