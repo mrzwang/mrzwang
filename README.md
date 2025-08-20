@@ -28,7 +28,7 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 
 ## Projects
 ### PyTorch Transformer GPT From Scratch
-**Description:** Implemented a GPT-style transformer language model completely from scratch using only PyTorch's basic building blocks. The project features a character-level transformer with manually implemented attention mechanisms, positional embeddings, and feed-forward networks without relying on high-level transformer modules. Includes both a full transformer architecture and a simpler bigram language model. The implementation uses concepts like causal masking, multi-head attention, residual connections, and autoregressive generation with numerical stability techniques. The project also features efficient data handling with memory-mapped files and random chunk sampling for training on the OpenWebText dataset.  
+**Description:** Implemented a GPT-style transformer language model in Pytorch through basic tensor operations and the nn.module class. The project features a character-level transformer with manually implemented attention mechanisms, positional embeddings, and feed-forward networks without relying on high-level transformer modules. Includes both a full transformer architecture and a simpler bigram language model. The implementation uses concepts like causal masking, multi-head attention, residual connections, and autoregressive generation with numerical stability techniques. The project also features efficient data handling with memory-mapped files and random chunk sampling for training on the OpenWebText dataset.  
 **Links:** [GitHub](https://github.com/mrzwang/PytorchTransformerGPT)
 
 ### Neural Network Adversarial Patches
