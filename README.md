@@ -116,11 +116,11 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrzwang&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrzwang&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrzwang&layout=compact&theme=radical&hide_border=true&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrzwang&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mrzwang&theme=radical&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=mrzwang&theme=tokyonight&hide_border=true)
 
 </div>
 
