@@ -11,7 +11,7 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 
 ---
 
-## Current Research/Projects
+## Featured Work
 
 ### Computer Use Agentic AI
 **Description:** Developing an autonomous browser interaction system using both AutoGen framework and Azure's Computer Use Preview API. This project enables AI models to navigate web interfaces through a sophisticated action handling system supporting clicks, typing, scrolling, and keyboard shortcuts. The implementation features custom Hugging Face model integration with function-calling capabilities, safety checks for user approval, screenshot-based visual feedback loops, and automatic tab management. The system maintains context awareness through URL tracking and provides detailed reasoning summaries, creating a human-in-the-loop experience where AI can perform web tasks while allowing human supervision. The architecture supports both streaming and synchronous completions with configurable model parameters, providing a foundation for research into autonomous web navigation capabilities.  
@@ -26,8 +26,6 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 **Links:** [GitHub](https://github.com/mrzwang/rl-adversarial-llm)
 
 ---
-
-## Research
 
 ### NGFuzz: Neural-Guided Adversarial Fuzzing Framework  
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/ngfuzz)
@@ -45,50 +43,57 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 
 ---
 
+## Other Notable Projects
+
+<details open>
+<summary><b>Research & ML Projects (Click to expand)</b></summary>
+
+<br>
+
 ### FormattingSFT: Code Format Training Dataset Generator for LLM Fine-Tuning
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/FormattingSFT)
 
-**Description:** Developed a specialized pipeline for creating supervised fine-tuning (SFT) datasets from Python code snippets to train language models on consistent output formatting. Implements AST-based docstring detection and tokenization-aware comment handling to preserve code structure while removing non-essential elements. Features intelligent regex-based code sanitization to filter potentially harmful patterns and memory-efficient batch processing with PyArrow for handling large datasets. The system generates structured prompt-completion pairs with deterministic output formatting, serving as a first-stage training step before reinforcement fine-tuning (RFT) to establish formatting patterns for code blocks, predictions, and structured responses.  
-**Links:** [GitHub](https://github.com/mrzwang/FormattingSFT)
+Specialized pipeline for creating supervised fine-tuning (SFT) datasets from Python code snippets to train language models on consistent output formatting. Implements AST-based docstring detection, tokenization-aware comment handling, and memory-efficient batch processing with PyArrow.
 
 ---
-
-## Projects
 
 ### PyTorch Transformer GPT From Scratch
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/PytorchTransformerGPT)
 
-**Description:** Implemented a GPT-style transformer language model in Pytorch through basic tensor operations and the nn.module class. The project features a character-level transformer with manually implemented attention mechanisms, positional embeddings, and feed-forward networks without relying on high-level transformer modules. Includes both a full transformer architecture and a simpler bigram language model. The implementation uses concepts like causal masking, multi-head attention, residual connections, and autoregressive generation with numerical stability techniques. The project also features efficient data handling with memory-mapped files and random chunk sampling for training on the OpenWebText dataset.  
-**Links:** [GitHub](https://github.com/mrzwang/PytorchTransformerGPT)
+Implemented a GPT-style transformer language model in PyTorch through basic tensor operations. Features character-level transformer with manually implemented attention mechanisms, positional embeddings, and feed-forward networks. Trained on the OpenWebText dataset with efficient memory-mapped file handling.
 
 ---
 
 ### Neural Network Adversarial Patches
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/Neural-Network-Adversarial-Patches)
 
-**Description:** Explores the vulnerability of convolutional image classifiers to adversarial perturbations. Implements both brute-force and optimization-based methods for generating adversarial examples on MNIST, including a learned additive noise layer using Keras' functional API.  
-**Links:** [GitHub](https://github.com/mrzwang/Neural-Network-Adversarial-Patches)
+Explores the vulnerability of convolutional image classifiers to adversarial perturbations. Implements both brute-force and optimization-based methods for generating adversarial examples on MNIST, including a learned additive noise layer using Keras' functional API.
 
----
+</details>
+
+<details open>
+<summary><b>Competition & Applied Projects (Click to expand)</b></summary>
+
+<br>
 
 ### UCOPC 2024: Optimal Team Selection for USA Gymnastics at Paris  
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/UCOPC2024)
 [![UCSAS](https://img.shields.io/badge/UCSAS-2024%20Challenge-blue)](https://statds.org/events/ucsas2024/challenge.html)
 
-**Description:** Finalist project in the Undergraduate division of the 2024 UCSAS Statistical Data Science Challenge, with poster featured at UCSAS 2024. The project sifts and works with over 26000 data entires from historic gymnastic results and implements a dual-method framework for selecting optimal five-member teams for the USA Men's and Women's Artistic Gymnastics programs ahead of Paris 2024. The first method applies linear assignment modeling to optimize event-specific lineups based on individual expected scores; the second leverages statistical inference (including t-tests and Type II error analysis) to identify high-impact all-arounders capable of minimizing medal upset risk. The pipeline integrates data cleaning, performance simulation, and ranking methodologies to balance specialization and team consistency under Olympic scoring constraints.  
-**Links:** [GitHub](https://github.com/mrzwang/UCOPC2024) | [UCSAS 2024 Challenge](https://statds.org/events/ucsas2024/challenge.html)  
+**🏆 Finalist** in the Undergraduate division of the 2024 UCSAS Statistical Data Science Challenge, with poster featured at UCSAS 2024. Analyzed 26,000+ data entries from historic gymnastic results and implemented a dual-method framework combining linear assignment modeling with statistical inference (t-tests, Type II error analysis) for optimal five-member team selection ahead of Paris 2024.
 
 ---
 
 ### Object Detection Transformer Model with Web Integration
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/dthxe/obj-detection-transformer)
 
-**Description:** Developed a browser-accessible object detection system leveraging a transformer model for zero-shot, text-prompt-based object detection. Built an interactive Flask application supporting both image uploads and live webcam capture, with a Pillow-based pipeline for preprocessing, bounding box annotation, and dynamic confidence filtering. The modular architecture enables rapid extension to new detection targets, UI components, and backend services, and integrates performance optimizations such as model caching for reduced inference latency. This also features the ability to be further finetuned to gain specific object classes.  
-**Links:** [GitHub](https://github.com/dthxe/obj-detection-transformer)
+Browser-accessible object detection system leveraging a transformer model for zero-shot, text-prompt-based object detection. Built an interactive Flask application supporting image uploads and live webcam capture, with performance optimizations including model caching for reduced inference latency.
+
+</details>
 
 ---
 
-## Technical Skills
+## 🛠️ Technical Skills
 
 ### Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -109,20 +114,6 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-
----
-
-## GitHub Statistics
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrzwang&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrzwang&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=mrzwang&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
