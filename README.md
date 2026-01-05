@@ -80,7 +80,7 @@ Explores the vulnerability of convolutional image classifiers to adversarial per
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/UCOPC2024)
 [![UCSAS](https://img.shields.io/badge/UCSAS-2024%20Challenge-blue)](https://statds.org/events/ucsas2024/challenge.html)
 
-**🏆 Finalist** in the Undergraduate division of the 2024 UCSAS Statistical Data Science Challenge, with poster featured at UCSAS 2024. Analyzed 26,000+ data entries from historic gymnastic results and implemented a dual-method framework combining linear assignment modeling with statistical inference (t-tests, Type II error analysis) for optimal five-member team selection ahead of Paris 2024.
+Finalist in the Undergraduate division of the 2024 UCSAS Statistical Data Science Challenge, with poster featured at UCSAS 2024. Analyzed 26,000+ data entries from historic gymnastic results and implemented a dual-method framework combining linear assignment modeling with statistical inference (t-tests, Type II error analysis) for optimal five-member team selection ahead of Paris 2024.
 
 ---
 
