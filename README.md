@@ -13,12 +13,6 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 
 ## Featured Work
 
-### Computer Use Agentic AI
-**Description:** Developing an autonomous browser interaction system using both AutoGen framework and Azure's Computer Use Preview API. This project enables AI models to navigate web interfaces through a sophisticated action handling system supporting clicks, typing, scrolling, and keyboard shortcuts. The implementation features custom Hugging Face model integration with function-calling capabilities, safety checks for user approval, screenshot-based visual feedback loops, and automatic tab management. The system maintains context awareness through URL tracking and provides detailed reasoning summaries, creating a human-in-the-loop experience where AI can perform web tasks while allowing human supervision. The architecture supports both streaming and synchronous completions with configurable model parameters, providing a foundation for research into autonomous web navigation capabilities.  
-**Note:** This is proprietary work in progress; source code is not publicly available at this time.
-
----
-
 ### RL Adversarial LLM: Reinforcement Learning Framework for LLM Code Generation 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/rl-adversarial-llm)
 
@@ -40,6 +34,12 @@ I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Sc
 
 **Description:** Developed a zero-shot, in-context evaluation framework that extends LLM reasoning to esoteric languages without any additional fine-tuning. Built a modular pipeline to compare full versus minimal context prompting and introduced a lightweight in-context reinforcement method that delivered measurable improvements on custom "EsoEval" benchmarks over standard HumanEval.  
 **Links:** [GitHub](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages), [Supplementary Material](https://github.com/mrzwang/LLM-potential_reward_hacking_examples) 
+
+---
+
+### Computer Use Agentic AI
+**Description:** Developing an autonomous browser interaction system using both AutoGen framework and Azure's Computer Use Preview API. This project enables AI models to navigate web interfaces through a sophisticated action handling system supporting clicks, typing, scrolling, and keyboard shortcuts. The implementation features custom Hugging Face model integration with function-calling capabilities, safety checks for user approval, screenshot-based visual feedback loops, and automatic tab management. The system maintains context awareness through URL tracking and provides detailed reasoning summaries, creating a human-in-the-loop experience where AI can perform web tasks while allowing human supervision. The architecture supports both streaming and synchronous completions with configurable model parameters, providing a foundation for research into autonomous web navigation capabilities.  
+**Note:** Source code is not publicly available at this time.
 
 ---
 
