@@ -13,6 +13,10 @@ I am a junior at MIT majoring in Mathematics and Computer Science.
 
 ## Featured Work
 
+### Modeling the Taalas HC1 Inference Architecture
+
+**Description:** Developed a reproducible architectural model of Taalas' HC1 LLM inference accelerator, investigating its custom MaskROM and Digital Oscillating Glitch RAM (DOGRAM) memory architectures. Characterized DOGRAM through transistor-level Cadence simulations at TSMC 65 nm and modeled scaling to advanced process nodes, then integrated custom hardware components into AccelForge to evaluate energy, latency, and throughput across transformer and CNN workloads. Performed a 5-workload × 4-ablation study to isolate the contributions of MaskROM and DOGRAM across memory- and compute-bound inference regimes.
+
 ### RL Adversarial LLM: Reinforcement Learning Framework for LLM Code Generation 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/rl-adversarial-llm)
 
