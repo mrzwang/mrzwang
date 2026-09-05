@@ -7,7 +7,7 @@
 
 </div>
 
-I am a sophomore at MIT majoring in the intersection of Mathematics, Computer Science, and Artificial Intelligence, with a particular interest in Machine Learning.
+I am a junior at MIT majoring in the intersection of Mathematics, Computer Science, and Artificial Intelligence, with a particular interest in Machine Learning.
 
 ---
 
