@@ -7,7 +7,7 @@
 
 </div>
 
-I am a junior at MIT majoring in Mathematics and Computer Science.
+I'm a junior at MIT double majoring in Computer Science and Engineering (6-3) and Mathematics (18). I'm interested in machine learning systems, efficient computing, and the intersection of algorithms, software, and hardware.
 
 ---
 
@@ -17,35 +17,37 @@ I am a junior at MIT majoring in Mathematics and Computer Science.
 
 **Description:** Developed a reproducible architectural model of Taalas' HC1 LLM inference accelerator, investigating its custom MaskROM and Digital Oscillating Glitch RAM (DOGRAM) memory architectures. Characterized DOGRAM through transistor-level Cadence simulations at TSMC 65 nm and modeled scaling to advanced process nodes, then integrated custom hardware components into AccelForge to evaluate energy, latency, and throughput across transformer and CNN workloads. Performed a 5-workload × 4-ablation study to isolate the contributions of MaskROM and DOGRAM across memory- and compute-bound inference regimes.
 
-### RL Adversarial LLM: Reinforcement Learning Framework for LLM Code Generation 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/rl-adversarial-llm)
+---
 
-**Description:** Developing an adversarial reinforcement learning framework for enhancing language model capabilities, implementing both PPO (Proximal Policy Optimization) and GRPO (General Reinforcement Policy Optimization) algorithms. The system focuses on RL fine-tuning sub-4B parameter models by pitting two models against each other. In this adversarial training framework, two language models compete against each other in real-time, continuously improving through reinforcement learning feedback loops. This creates a adversarial game where models learn to generate increasingly sophisticated code by attempting to outperform their opponents.  
+### RL Adversarial LLM: Reinforcement Learning for LLM Code Generation
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/rl-adversarial-llm)
+![ICLR](https://img.shields.io/badge/ICLR-2026%20Workshop-8A2BE2?style=flat)
+
+**Description:** Developed an adversarial reinforcement learning framework for improving LLM code generation, implementing PPO and GRPO to fine-tune sub-4B parameter models through competitive self-play. Evaluated the approach on code-generation benchmarks, achieving a 15.9% improvement on HumanEval. This work was accepted to the ICLR 2026 Workshop on RSI.
+
 **Links:** [GitHub](https://github.com/mrzwang/rl-adversarial-llm)
 
 ---
 
-### NGFuzz: Neural-Guided Adversarial Fuzzing Framework  
+### In-Context Learning for Esoteric Programming Languages
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages)
+![NeurIPS](https://img.shields.io/badge/NeurIPS-2025%20Workshops-8A2BE2?style=flat)
+
+**Description:** Developed an in-context evaluation framework for extending LLM code generation to esoteric programming languages without additional fine-tuning. Built a benchmark and modular evaluation pipeline to compare prompting strategies and investigate model performance in low-resource programming environments. This work was accepted to the NeurIPS 2025 DL4C and LLM Evaluations Workshops.
+
+**Links:** [GitHub](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages), [Supplementary Material](https://github.com/mrzwang/LLM-potential_reward_hacking_examples)
+
+---
+
+### NGFuzz: Neural-Guided Adversarial Fuzzing Framework
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/ngfuzz)
 
-**Description:** Combines traditional AFL fuzzing with neural network guidance to intelligently direct input mutations for enhanced software vulnerability discovery. Implements gradient-based optimization and adversarial input generation to systematically explore rare and complex program paths. Features continuous model retraining for adaptive fuzzing that evolves with program behavior, significantly improving code coverage and bug detection efficiency.  
+**Description:** Developed a neural-guided fuzzing framework that combines AFL with learned input mutation strategies for software vulnerability discovery. Implemented gradient-based adversarial input generation and continuous model retraining to guide exploration toward rare program paths, improving code coverage over traditional fuzzing baselines.
+
 **Links:** [GitHub](https://github.com/mrzwang/ngfuzz)
 
 ---
 
-### In-Context Learning for Esoteric Programming Languages  
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages)
-
-**Description:** Developed a zero-shot, in-context evaluation framework that extends LLM reasoning to esoteric languages without any additional fine-tuning. Built a modular pipeline to compare full versus minimal context prompting and introduced a lightweight in-context reinforcement method that delivered measurable improvements on custom "EsoEval" benchmarks over standard HumanEval.  
-**Links:** [GitHub](https://github.com/mrzwang/In-Context-Learning-for-Esoteric-Programming-Languages), [Supplementary Material](https://github.com/mrzwang/LLM-potential_reward_hacking_examples) 
-
----
-
-### Computer Use Agentic AI
-**Description:** Developing an autonomous browser interaction system using both AutoGen framework and Azure's Computer Use Preview API. This project enables AI models to navigate web interfaces through a sophisticated action handling system supporting clicks, typing, scrolling, and keyboard shortcuts. The implementation features custom Hugging Face model integration with function-calling capabilities, safety checks for user approval, screenshot-based visual feedback loops, and automatic tab management. The system maintains context awareness through URL tracking and provides detailed reasoning summaries, creating a human-in-the-loop experience where AI can perform web tasks while allowing human supervision. The architecture supports both streaming and synchronous completions with configurable model parameters, providing a foundation for research into autonomous web navigation capabilities.  
-**Note:** Source code is not publicly available at this time.
-
----
 
 ## Other Notable Projects
 
@@ -72,6 +74,12 @@ Implemented a GPT-style transformer language model in PyTorch through basic tens
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/mrzwang/Neural-Network-Adversarial-Patches)
 
 Explores the vulnerability of convolutional image classifiers to adversarial perturbations. Implements both brute-force and optimization-based methods for generating adversarial examples on MNIST, including a learned additive noise layer using Keras' functional API.
+
+---
+
+### Computer Use Agentic AI
+**Description:** Developing an autonomous browser interaction system using both AutoGen framework and Azure's Computer Use Preview API. This project enables AI models to navigate web interfaces through a sophisticated action handling system supporting clicks, typing, scrolling, and keyboard shortcuts. The implementation features custom Hugging Face model integration with function-calling capabilities, safety checks for user approval, screenshot-based visual feedback loops, and automatic tab management. The system maintains context awareness through URL tracking and provides detailed reasoning summaries, creating a human-in-the-loop experience where AI can perform web tasks while allowing human supervision. The architecture supports both streaming and synchronous completions with configurable model parameters, providing a foundation for research into autonomous web navigation capabilities.  
+**Note:** Source code is not publicly available at this time.
 
 </details>
 
